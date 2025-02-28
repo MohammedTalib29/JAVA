@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>"Hello, my name is Mohammed Talib. I'm currently a 4th year student at PMC, pursuing a degree in BE. I have a strong interest in AIML, and I'm excited to be a part of this community to expand my knowledge and skills. Outside of academics, I enjoy mention hobbies or activities, and I'm always looking for opportunities to grow both personally and professionally. I look forward to making meaningful connections and contributing to campus life."</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="project">
+                <h2>Project 1:</h2>
+                <p>chatbot using AIML</p>
+                <button onclick="window.location.href='https://your-project-link.com'">View Project</button>
+            </div>
+            <div class="project">
+                <h2>Project 2:</h2>
+                <p>Air quality prediction using python</p>
+                <button onclick="window.location.href='https://your-project-link.com'">View Project</button>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>If you'd like to work together or just say hi, feel free to reach out!</p>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-response"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
